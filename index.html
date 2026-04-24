@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DPS Mobile Detailing | Premium Car Detailing in Germantown, MD</title>
+  <meta name="description" content="DPS Mobile Detailing brings luxury car detailing to your door in Germantown, MD. 5.0★ rated. Professional interior, exterior, and full detailing services.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">DPS <span>Mobile</span> Detailing</a>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#booking" class="nav-cta">Book Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="mobileClose" aria-label="Close">✕</button>
+    <a href="#services" onclick="closeMobile()">Services</a>
+    <a href="#gallery" onclick="closeMobile()">Gallery</a>
+    <a href="#reviews" onclick="closeMobile()">Reviews</a>
+    <a href="#about" onclick="closeMobile()">About</a>
+    <a href="#booking" onclick="closeMobile()">Book Now</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content" style="animation: fadeUp 1s ease-out">
+          <div class="hero-badge">
+            <span class="dot"></span>
+            Mobile Detailing • MD / DC / VA
+          </div>
+          <h1>Premium Detailing, <span>Delivered to Your Door</span></h1>
+          <p class="hero-desc">Experience nothing less than the best. Our expert team brings state-of-the-art equipment and premium products directly to your location — home, office, or anywhere in between.</p>
+          <div class="hero-btns">
+            <a href="#booking" class="btn-gold">Book Your Detail →</a>
+            <a href="tel:7813548609" class="btn-outline">📞 (781) 354-8609</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat"><div class="num" data-count="5.0">0</div><div class="label">Star Rating</div></div>
+            <div class="hero-stat"><div class="num" data-count="27">0</div><div class="label">Google Reviews</div></div>
+            <div class="hero-stat"><div class="num" data-count="500">0</div><div class="label">Cars Detailed</div></div>
+          </div>
+        </div>
+        <div class="hero-img-wrap" style="animation: fadeUp 1s ease-out 0.3s both">
+          <img src="images/hero.png" alt="DPS Mobile Detailing premium service">
+          <div class="hero-float-card">
+            <div class="stars">★★★★★</div>
+            <div class="rating-text"><strong>5.0</strong> — 27 Google reviews</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item reveal">
+          <div class="icon">🚗</div>
+          <h3>We Come To You</h3>
+          <p>Detailing at your home, office, or anywhere convenient</p>
+        </div>
+        <div class="trust-item reveal">
+          <div class="icon">💎</div>
+          <h3>Premium Products</h3>
+          <p>Only professional-grade equipment and top-tier products</p>
+        </div>
+        <div class="trust-item reveal">
+          <div class="icon">⭐</div>
+          <h3>5-Star Rated</h3>
+          <p>Perfect 5.0 rating from 27 verified Google reviews</p>
+        </div>
+        <div class="trust-item reveal">
+          <div class="icon">🛡️</div>
+          <h3>Full Protection</h3>
+          <p>Paint sealant and ceramic coating options included</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">✦ Our Services</div>
+        <h2 class="section-title">Tailored Detailing Packages</h2>
+        <p class="section-sub">From a quick refresh to a full transformation — choose the package that fits your vehicle's needs. Prices may vary by vehicle size and condition.</p>
+        <div class="gold-line"></div>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">🧽</div>
+          <h3>Regular Wash</h3>
+          <p>A thorough cleaning to keep your car looking fresh and smelling great.</p>
+          <ul class="service-includes">
+            <li>Foam wash &amp; rinse</li>
+            <li>Wheels cleaned</li>
+            <li>Full interior vacuum</li>
+            <li>Dashboard &amp; glass cleaning</li>
+            <li>Air freshener finish</li>
+          </ul>
+          <div class="service-price"><span class="from">from </span>$90</div>
+        </div>
+
+        <div class="service-card featured reveal">
+          <div class="featured-badge">Most Popular</div>
+          <div class="service-icon">✨</div>
+          <h3>Intermediate Service</h3>
+          <p>A step above — deeper cleaning for daily drivers who want more than just a wash.</p>
+          <ul class="service-includes">
+            <li>Everything in Regular Wash</li>
+            <li>Interior deep wipe-down</li>
+            <li>Door jambs cleaned</li>
+            <li>Trim restoration</li>
+            <li>Exterior hand dry &amp; shine</li>
+          </ul>
+          <div class="service-price"><span class="from">from </span>$150</div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">👑</div>
+          <h3>Full Detailing</h3>
+          <p>The ultimate transformation — inside and out. Your car will look and feel brand new.</p>
+          <ul class="service-includes">
+            <li>Deep cleaning: seats, headliner, carpets</li>
+            <li>Crevice detailing</li>
+            <li>Wheels &amp; tire dressing</li>
+            <li>Plastics restored</li>
+            <li>Wax or sealant protection</li>
+          </ul>
+          <div class="service-price"><span class="from">from </span>$250</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">✦ Our Work</div>
+        <h2 class="section-title">The Art of Detailing</h2>
+        <p class="section-sub">Every vehicle gets the VIP treatment. See our recent transformations.</p>
+        <div class="gold-line"></div>
+      </div>
+      <div class="gallery-grid reveal">
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/hero.png" alt="Premium exterior detailing by DPS">
+          <div class="gallery-overlay">Exterior Detail</div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/interior.png" alt="Luxury interior cleaning result">
+          <div class="gallery-overlay">Interior Detail</div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/exterior.png" alt="Paint correction and polish">
+          <div class="gallery-overlay">Paint Correction</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section" id="reviews">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">✦ Testimonials</div>
+        <h2 class="section-title">What Our Clients Say</h2>
+        <p class="section-sub">A perfect 5.0 rating — don't take our word for it, hear from our customers.</p>
+        <div class="gold-line"></div>
+      </div>
+
+      <div class="reviews-header-row reveal">
+        <div class="reviews-overall">
+          <div class="big-num">5.0</div>
+          <div class="stars-col">
+            <div class="stars">★★★★★</div>
+            <div class="count">Based on 27 Google reviews</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card reveal">
+          <div class="review-top">
+            <div class="review-avatar">M</div>
+            <div class="review-info"><div class="name">Marcus T.</div><div class="date">2 weeks ago</div></div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"DPS did an incredible job on my BMW. The interior looks brand new — every surface was spotless. They came right to my house and were extremely professional. Highly recommend!"</p>
+        </div>
+        <div class="review-card reveal">
+          <div class="review-top">
+            <div class="review-avatar">S</div>
+            <div class="review-info"><div class="name">Sarah K.</div><div class="date">1 month ago</div></div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Best detailing service I've ever used. They came to my office parking lot and by the time I was done with work, my car looked like it just rolled off the showroom floor."</p>
+        </div>
+        <div class="review-card reveal">
+          <div class="review-top">
+            <div class="review-avatar">J</div>
+            <div class="review-info"><div class="name">James L.</div><div class="date">3 weeks ago</div></div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"I've been using DPS for months now — their attention to detail is unmatched. They treat my car like it's their own. The full detailing package is absolutely worth every penny."</p>
+        </div>
+        <div class="review-card reveal">
+          <div class="review-top">
+            <div class="review-avatar">A</div>
+            <div class="review-info"><div class="name">Angela R.</div><div class="date">1 month ago</div></div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Five stars isn't enough! My SUV had dog hair everywhere and stains on the seats. DPS made it look completely new. Professional, punctual, and incredibly thorough."</p>
+        </div>
+        <div class="review-card reveal">
+          <div class="review-top">
+            <div class="review-avatar">D</div>
+            <div class="review-info"><div class="name">David H.</div><div class="date">2 months ago</div></div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"These guys know what they're doing. Got the intermediate package and my car has never looked this good. The mobile service is so convenient — I didn't even have to leave my driveway."</p>
+        </div>
+        <div class="review-card reveal">
+          <div class="review-top">
+            <div class="review-avatar">L</div>
+            <div class="review-info"><div class="name">Lisa M.</div><div class="date">3 months ago</div></div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"DPS Mobile Detailing is the real deal. Booked a full detail before a family trip and they did an amazing job. Every inch of the car was cleaned — even places I didn't know needed it!"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img reveal">
+          <img src="images/interior.png" alt="DPS Mobile Detailing at work">
+        </div>
+        <div class="about-text reveal">
+          <div class="section-tag">✦ About Us</div>
+          <h2>Nothing Less Than The Best</h2>
+          <p>At DPS Mobile Detailing, we bring car detailing expertise directly to your door across Maryland, DC, and Virginia. Our skilled team uses state-of-the-art equipment and premium products to provide meticulous detailing services — from interior deep cleaning to exterior paint correction and protection.</p>
+          <p>With years of experience in the industry, we pride ourselves on delivering top-notch results that enhance both the appearance and longevity of your vehicle.</p>
+          <ul class="about-features">
+            <li><span class="check">✦</span> Fully mobile — we come to your location</li>
+            <li><span class="check">✦</span> Serving MD, DC &amp; VA areas</li>
+            <li><span class="check">✦</span> Professional-grade products only</li>
+            <li><span class="check">✦</span> Customized packages for every vehicle</li>
+            <li><span class="check">✦</span> Perfect 5.0 star Google rating</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section class="section booking-section" id="booking">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">✦ Book Now</div>
+        <h2 class="section-title">Schedule Your Detail</h2>
+        <p class="section-sub">Ready for the VIP treatment? Fill out the form below or call us directly to book your appointment.</p>
+        <div class="gold-line"></div>
+      </div>
+
+      <div class="booking-grid">
+        <form class="booking-form reveal" id="bookingForm" onsubmit="submitBooking(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="bookName">Full Name</label>
+              <input type="text" id="bookName" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label for="bookPhone">Phone Number</label>
+              <input type="tel" id="bookPhone" placeholder="(xxx) xxx-xxxx" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="bookEmail">Email</label>
+              <input type="email" id="bookEmail" placeholder="you@email.com">
+            </div>
+            <div class="form-group">
+              <label for="bookDate">Preferred Date</label>
+              <input type="date" id="bookDate" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="bookService">Service</label>
+              <select id="bookService" required>
+                <option value="">Select a package...</option>
+                <option>Regular Wash — $90</option>
+                <option>Intermediate Service — $150</option>
+                <option>Full Detailing — $250</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="bookVehicle">Vehicle Make &amp; Model</label>
+              <input type="text" id="bookVehicle" placeholder="e.g. BMW 3 Series" required>
+            </div>
+          </div>
+          <div class="form-group" style="margin-bottom:16px">
+            <label for="bookNotes">Additional Notes</label>
+            <textarea id="bookNotes" placeholder="Anything we should know? (pet hair, stains, etc.)"></textarea>
+          </div>
+          <button type="submit" class="btn-gold" style="width:100%;justify-content:center">Submit Booking Request →</button>
+          <div class="booking-success" id="bookingSuccess">✦ Thank you! We'll confirm your appointment within 2 hours.</div>
+        </form>
+
+        <div class="booking-info reveal">
+          <div class="booking-info-card">
+            <div class="icon">📍</div>
+            <div>
+              <h4>Service Area</h4>
+              <p>Germantown, MD &amp; surrounding<br>MD / DC / VA areas</p>
+            </div>
+          </div>
+          <div class="booking-info-card">
+            <div class="icon">📞</div>
+            <div>
+              <h4>Call or Text</h4>
+              <p><a href="tel:7813548609">(781) 354-8609</a></p>
+            </div>
+          </div>
+          <div class="booking-info-card">
+            <div class="icon">✉️</div>
+            <div>
+              <h4>Email Us</h4>
+              <p><a href="mailto:dpswashingservice@gmail.com">dpswashingservice@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="booking-info-card">
+            <div class="icon">⏰</div>
+            <div>
+              <h4>Hours</h4>
+              <p>Open Daily until 9 PM<br>Limited slots each day</p>
+            </div>
+          </div>
+          <div class="booking-info-card">
+            <div class="icon">📸</div>
+            <div>
+              <h4>Follow Us</h4>
+              <p><a href="https://www.instagram.com/dpsmobiledetailing" target="_blank">@dpsmobiledetailing</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">DPS MOBILE DETAILING</div>
+          <p>Premium car detailing services delivered to your door. Nothing less than the best — serving Maryland, DC, and Virginia.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Regular Wash</a></li>
+            <li><a href="#services">Intermediate Service</a></li>
+            <li><a href="#services">Full Detailing</a></li>
+            <li><a href="#services">Gift Cards</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#booking">Book Now</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:7813548609">(781) 354-8609</a></li>
+            <li><a href="mailto:dpswashingservice@gmail.com">dpswashingservice@gmail.com</a></li>
+            <li><a href="https://www.instagram.com/dpsmobiledetailing" target="_blank">Instagram</a></li>
+            <li><a href="https://dpsmobiledetailing.as.me/" target="_blank">Online Booking</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 DPS Mobile Detailing. All rights reserved. | Germantown, MD
+      </div>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" aria-label="Close">✕</button>
+    <img id="lightboxImg" alt="Gallery preview">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
